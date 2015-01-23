@@ -1,0 +1,13 @@
+session: "YAML"
+plugins:
+    Auth::Extensible:
+        no_default_pages: 1
+        login_page: '/notauthenticated'
+        denied_page: '/notauthorized' 
+        realms:
+            rm:
+                provider: Rm 
+
+
+
+
